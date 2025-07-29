@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #222;
+  color: #fff;
+}
+.header nav a {
+  margin-left: 15px;
+  color: #fff;
+  text-decoration: none;
+}
+.header nav a:hover {
+  color: #0af;
+}
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
